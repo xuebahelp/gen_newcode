@@ -1,0 +1,1 @@
+pyinstaller -F --add-data=main.ui:./ --add-data=libzbar-64.dll:./pyzbar/ --add-data=libiconv.dll:./pyzbar/ --noconsole -i logo2.ico main.py
